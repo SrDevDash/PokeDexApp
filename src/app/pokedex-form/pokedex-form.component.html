@@ -1,0 +1,6 @@
+<form #f="ngForm" (ngSubmit)="f.form.valid && lookForPokemon()">
+    <input class="inputSearch" [(ngModel)]="inputSearch" name='a' type="text" style="margin-left: 20px; margin-top: 20px;" placeholder="ID pokemon">
+    <button type="submit"  style="margin-left: 20px; margin-top: 5px" class="pokemon-btn"></button>
+</form>
+
+
